@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Esqueci a Senha</title>
@@ -38,14 +37,10 @@
 
 
     <div class="userarea">
-        <!-- <div class="pfpimg">
-            <img src="../assets/pfp.png" alt="User">
              
-        </div>    -->
         <a href="login.php">
         <div class="toolbutton active" id="pghome"><h1>Entrar</h1></div>
         </a> 
-        <!-- <div class="selectstatus" id="statusdiv"> -->
         
         </div>
     </div>

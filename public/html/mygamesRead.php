@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Meus Jogos</title>
@@ -24,7 +23,6 @@
     $row_userU = $res_userU -> fetch_object();
     ?>
 </head>
-<!-- <span class="auth" auth></span> -->
 <span class="holder" id="holder" style="color: var(--will); z-index: 10;"><?php
     if ($row_userU->games != '') { 
         echo $row_userU->games;
@@ -39,7 +37,6 @@
 <div class="main">
 
 </div>
-<!-- Descrição -->
 
 <div class="content">
     <div class="sideicon back" style="display: none"></div>

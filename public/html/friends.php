@@ -1,9 +1,7 @@
-<!-- NEW -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Amigos</title>
@@ -85,7 +83,6 @@
     
     ?>
 </head>
-<!-- <span class="auth" auth></span> -->
 
 
 <body>
@@ -350,16 +347,12 @@ if (!(isset($_GET['pendentes']) OR isset($_GET['gamefilter']))) {
                         // Renderize o menu de amigos
                         ?>
                         <div style="display: flex; align-items: center; gap: 2vw">
-                            <!-- <a href=""><button class="toolbutton config" style="height: 8vh; font-size: large; width: fit-content">
-                                <img src="../assets/icons/chat_dm.png" style="width: 6vh; margin: 0" alt="" srcset="">
-                            </button></a> -->
                             <a href="friends.php?remover=<?php echo $row->id; ?>">
                                 <button class="toolbutton config" style="height: 8vh; font-size: large">Remover</button>
                             </a>
                         </div>
                         <?php
                     } else {
-                        // btoao add se nao for amigo
                         ?>
                         <div style="display: flex; align-items: center; gap: 2vw">
                             <a href="friends.php?adicionar=<?php echo $row->id; ?>">
@@ -368,7 +361,7 @@ if (!(isset($_GET['pendentes']) OR isset($_GET['gamefilter']))) {
                         </div>
                         <?php };
 
-            } else { // editar meu perfil ?>
+            } else { ?>
 
             <div style="display: flex; align-items: center; gap: 2vw">
             <a href="edit.php"><button class="toolbutton config" style="height: 8vh; font-size: large;">Editar Perfil</button></a>
@@ -384,14 +377,12 @@ if (!(isset($_GET['pendentes']) OR isset($_GET['gamefilter']))) {
     };
     ?>
 </div>
-<!-- </form> -->
 
 <?php 
 if (!isset($_GET['pendentes']) AND !isset($_GET['amigos'])) {
     ?>
 
 <div class="con1 fil">
-    <!-- <form action="friends.php?gamefilter" method="post"> -->
     <h1><strong>Filtro por Jogo</strong></h1>
     <form action="" method="get" style="display: flex; gap: 2vh; flex-direction: column;">
     <select id="menuG" name="selAGame" required="true" class="inp">
@@ -411,8 +402,6 @@ if (!isset($_GET['pendentes']) AND !isset($_GET['amigos'])) {
         </div>
 
     </div>
-    <!-- <button class="toolbutton" id="update" onclick="send()"><h1>Pesquisar</h1></button> -->
-    <!-- <button class="toolbutton" id="update" onclick="send()"><h1>Pesquisar</h1></button> -->
 
     
 <?php

@@ -27,7 +27,6 @@
         header('Location: tournaments.php');
     } 
     ?>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Editando Torneio - <?php echo $row->title ?></title>
@@ -88,9 +87,6 @@
 
 <div class="page" style="left: 0">
 <div class="con1">
-    <!-- <div class="con2" style="width: 100%; height: 100%; overflow: hidden;"> -->
-        <!-- <iframe src="posting.html" frameborder="0" style="width: 100%; height: 100%; overflow: hidden;"></iframe> -->
-    <!-- </div> -->
     <div style="display: flex; gap: 1vw; justify-content:center; align-items: center;">
         <h1>Editando Torneio - Status:
             <select id="tourstatus" name="tourstatus" required="true" class="inp" style="background: var(--black); border: none; height: fit-content; font-size: medium; width: 20vw">
@@ -132,8 +128,6 @@
 
             <label for="dates"><strong>Data Início</strong></label>
             <input type="date" id="dates" name="dates" value="<?php echo $row->date_start ?>" placeholder="Título da postagem" class="inp" style="height: fit-content; font-size: large">
-            <!-- ou
-            <button type="submit" name="nextStart" class="toolbutton" style="font-size: larger; width: fit-content; color: var(--void)">Iniciar Torneio</button><br><br><br> -->
         
         
         
@@ -204,7 +198,6 @@ $datee = $_POST['datee'];
 
 
 </form>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   
 
 </body>

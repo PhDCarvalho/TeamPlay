@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Meus Jogos</title>
@@ -21,7 +20,6 @@
     }
     ?>
 </head>
-<!-- <span class="auth" auth></span> -->
 <span class="holder" id="holder" style="color: var(--will); z-index: 10;"><?php
     if ($_SESSION['usergames'] != '') { 
         echo $_SESSION['usergames'];

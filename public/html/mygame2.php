@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Meus Jogos</title>
@@ -21,7 +20,6 @@
     }
     ?>
 </head>
-<!-- <span class="auth" auth></span> -->
 
 
 <body>
@@ -56,7 +54,6 @@
     </div>
 
 </div>
-<!-- Descrição -->
 
 <div class="content">
     

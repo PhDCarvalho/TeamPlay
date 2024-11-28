@@ -24,7 +24,6 @@ mysqli_select_db($con, 'teamplay');
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<!-- Fatual -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TeamPlay - Criar Novo Grupo</title>
@@ -37,7 +36,6 @@ mysqli_select_db($con, 'teamplay');
 <body>
 <div class="main">
 
-<!-- Descrição -->
 
 <div class="content">
     

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<!-- Fatual -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TeamPlay - Meus Grupos</title>
@@ -40,7 +39,6 @@ $userName = $_GET['name'];
 <body>
 <div class="main">
 
-<!-- Descrição -->
 
 <div class="content">
     

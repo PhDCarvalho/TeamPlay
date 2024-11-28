@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Torneios</title>
@@ -30,7 +29,6 @@
 
 
 </head>
-<!-- <span class="auth" auth></span> -->
 
 
 <body>
@@ -104,7 +102,6 @@ for ($t=0; $t<$res_tour->num_rows; $t++) { ?>
     </div>
 
 </div>
-<!-- Descrição -->
 
 <div class="content">
     
@@ -182,7 +179,6 @@ for ($t=0; $t<$res_tour->num_rows; $t++) { ?>
 
         <div class="post" name="tour" postid="<?php echo $row->id; ?>" style="min-height: fit-content;">
             <div style="display: inline-flex; gap: 1vw; align-items: center; width: 80%">
-            <!-- <img src="<?php // echo $row->picture; ?>" alt=""> -->
             <img src="<?php echo $img ?>" alt="Torneio">
             <div class="postCon" style="width: 90%;">
                 <h1>
@@ -222,50 +218,6 @@ for ($t=0; $t<$res_tour->num_rows; $t++) { ?>
         <div class="post info" id="info">
             <h1>Selecione um Torneio</h1>
             Selecione um torneio ao lado para exibir suas informações.<br><br>
-            <!-- <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 1vw; justify-content: space-between; width: 100%">
-                <div style="display: flex; flex-direction: column">
-
-                <div style="display: flex; flex-direction: row; align-items: center; gap: .4vw">
-                <h1 style="min-width: 4vw; max-width: 20vw; overflow-wrap: break-word; padding-left: 1vw; padding-right: 1vw;">XXXXX
-                </h1>
-                    
-                <br>
-                <div class="box" style="width: 4vw; height: 4vw;">
-                <div class="tourstatus" style="width: 2vw; height: 2vw; background: rgb(231, 217, 24)"></div></div>
-                </div>
-
-                    <div style="display: flex; flex-direction: row; gap: 1vw; margin-left: .1vw">
-                        <p style="background-color: var(--shade1); width: max-content;"><strong>Organizador: <span class="at">@ </span><a href="user.php">XXXXX</a></strong></p></h1>
-                        <p style="background-color: var(--shade1); width: max-content;"><strong>Jogo: XXXXX</a></strong></p></h1>
-                    </div>
-                </div>
-                <div class="inp btn config"><strong style="font-size: x-large;">Editar</strong></div>
-            </div>
-
-            <div class="divi" style="margin-bottom: 1vh;"></div>
-
-            <p style="background-color: var(--shade2-a); width: max-content; margin: -.8vh"><strong>Placar: </strong>XXXXX</p></h1>
-            <div class="infomini">
-                <ul>
-                    <li><strong>Tipo: </strong>XXXXX</li>
-                    <li><strong>Data de Início: </strong> XXXXX</li>
-                    <li><strong>N° Jogadores: </strong>XXXXX</li><br>
-                    <li><strong>Data de Finalização: </strong> XXXXX</li>
-                    <li><strong>Vencedor: </strong> XXXXX</li>
-                    <li><strong>Região: </strong>XXXXX</li></ul><br>
-                </ul>
-            </div>   
-
-            <div class="divi"></div>
-
-            <div class="lowerinfo">
-                <div>
-                    <img src="../assets/icons/tour_official.png" alt="Imagem do Torneio">
-                </div>
-                <h1 style="width: 26vw; overflow-wrap: break-word; padding-left: 1vw; padding-right: 1vw;">Sobre o Torneio 
-                </h1>
-                <p style="text-align: justify;">XXXXX
-            </div> -->
         </div>
     </div>
 
@@ -278,7 +230,6 @@ for ($t=0; $t<$res_tour->num_rows; $t++) { ?>
 
 
 <script src="../js/filtersIndexT.js"></script>
-<!-- <script src="../js/filters.js"></script> -->
   
 <script src="../js/tourns.js"></script>
 </body>

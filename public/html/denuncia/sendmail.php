@@ -34,19 +34,20 @@ if (!isset($_SESSION['email'])) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mail = new PHPMailer();
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    // ATENÇÃO: MUDAR "XXXXXXXXXXX" para seus próprios dados.
+    $mail->Host = 'XXXXXXXXXXX';
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'tls';
-    $mail->Username = 'suporte.teamplay@gmail.com'; 
-    $mail->Password = 'bvmx ivhg hmxq tezd'; 
+    $mail->Username = 'XXXXXXXXXXX'; 
+    $mail->Password = 'XXXXXXXXXXX'; 
     $mail->Port = 587;
 
     // Adiciona o charset UTF-8 para suportar caracteres especiais
     $mail->CharSet = 'UTF-8';
 
-    $mail->setFrom('suporte.teamplay@gmail.com', 'Suporte TeamPlay');
+    $mail->setFrom('XXXXXXXXXXX', 'Suporte TeamPlay');
     $mail->addReplyTo($_SESSION['email'], 'Suporte TeamPlay'); // Usa o e-mail da sessão
-    $mail->addAddress('suporte.teamplay@gmail.com'); 
+    $mail->addAddress('XXXXXXXXXXX'); 
     $mail->isHTML(true);
     
     // Define o assunto do e-mail com o username

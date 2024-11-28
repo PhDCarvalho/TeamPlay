@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Criar Postagem</title>
@@ -30,13 +29,11 @@
 
     ?>
 </head>
-<!-- <span class="auth" auth></span> -->
 
 
 <body>
 <div class="main">
 
-<!-- Descrição -->
 
 <div class="content">
     
@@ -88,9 +85,6 @@
 <form action="" method="post">
 <div class="page">
 <div class="con1">
-    <!-- <div class="con2" style="width: 100%; height: 100%; overflow: hidden;"> -->
-        <!-- <iframe src="posting.html" frameborder="0" style="width: 100%; height: 100%; overflow: hidden;"></iframe> -->
-    <!-- </div> -->
     <div style="display: flex; gap: 1vw; justify-content:center; align-items: center;">
         <h1>Criar</h1>
         <select id="menu1" name="type" required="true" class="inp" style="background: var(--black); border: none;">
@@ -178,8 +172,6 @@ $desc = $_POST['desc'];
 
 
 </form>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-<!-- <script src="../js/scriptPost.js"></script> -->
 <script src="../js/filtersPost.js"></script>
   
 

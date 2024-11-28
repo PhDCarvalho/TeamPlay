@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamPlay - Home</title>
-    <!-- <link rel="stylesheet" href="../css/styleSign.css"> -->
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/styleTour.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -31,7 +29,6 @@
 
     ?>
 </head>
-<!-- <span class="auth" auth></span> -->
 
 
 <body>
@@ -96,7 +93,6 @@ if (isset($_GET['deletepost'])) {
 
 
 </div>
-<!-- Descrição -->
 
 <div class="content">
     
@@ -150,7 +146,6 @@ if (isset($_GET['deletepost'])) {
             <p><strong>Filtrando por:</strong></p>
                 <select id="menu1" name="favgame" required="true" class="inp"> 
                     <option value="byDate">Data de postagem</option>
-                    <!-- <option value="byLike">Likes</option> -->
                     <option value="byFriend">Amigos</option>
                 </select>
         </div>
@@ -214,7 +209,6 @@ if (isset($_GET['deletepost'])) {
 
 <div class="post" name="post" postid="<?php echo $row->id_post; ?>" style="min-height: fit-content;" onclick="showHide(this)">
         <div style="display: inline-flex; gap: 1vw; align-items: center;">
-        <!-- <img src="<?php // echo $row->picture; ?>" alt=""> -->
         <img src="<?php echo $row->imagem ?>" alt="Postagem">
         <div class="postCon" style="width: 90%;">
             <h1>

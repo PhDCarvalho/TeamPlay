@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Fatual -->
     <?php 
     include '../../backend/classes/conn.php';
     include 'checkban.php';
@@ -337,7 +336,6 @@
                 } else {
                 false;
                 ?>
-                <!-- <a href=''><div class="inp btn config "id="pghome"><h1>Administrar <span style="color: var(--will);">TeamPlay</span></h1></div></a> -->
                 <?php 
                 }
             ?>
@@ -350,7 +348,6 @@
                 <?php if (!(in_array($usr_id, $_SESSION['userfriends']))) { ?>
                     <a href='friends.php?adicionar=<?php echo $usr_id ?>'><div class="inp btn sec" id="pghome"><h1>Adicionar</h1></div></a>
                 <?php } ?>
-                <!-- <a href='msg.php?uid='><div class="inp btn config sec" style="width: 12vw;" id="pghome"><h1>Mensagem</h1></div></a> -->
                 
             <?php if ($other) { ?>
                 <a href='denuncia/fale.php?offender=<?php echo $usr_name ?>'><div class="inp btn config" id="pghome" style="width: 14vw"><h1>Denunciar Jogador</h1></div></a>
