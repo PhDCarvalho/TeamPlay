@@ -19,6 +19,7 @@ A TeamPlay conta com diversas funcionalidades para *gamers*. Dentre elas:
 
 <br>
 
+
 #### Idealizado e desenvolvido por
 
 - ``Ryan Lucas`` <a href="https://www.instagram.com/ryanvl22/" title="Instagram"><img align="center" src="/public/assets/icons/social_icon_ig.png" width="22" height="22"></a>
