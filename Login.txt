@@ -1,4 +1,4 @@
 Logins do ADM:
-Use:   Adm
+User:   Adm
 Senha: pass123
 
